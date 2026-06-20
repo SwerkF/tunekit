@@ -13,6 +13,12 @@
 
 ---
 
+<div align="center">
+  <img src="assets/demo.gif" alt="TuneKit demo" width="700" />
+</div>
+
+---
+
 > **Legal disclaimer**: downloading YouTube content may violate YouTube's [Terms of Service](https://www.youtube.com/static?template=terms). This tool is intended for strictly personal use, for playlists you own or that are royalty-free.
 
 ---
