@@ -1,0 +1,48 @@
+# ── Dépendances ──────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ── Build / output ────────────────────────────────────────────
+dist/
+build/
+out/
+
+# ── Données runtime (privées / locales) ──────────────────────
+# Toutes les données utilisateur vivent dans ~/.tunekit/
+# Rien de tout ça ne doit être versionné
+.tunekit/
+
+# ── Fichiers temporaires ──────────────────────────────────────
+*.tmp
+*.temp
+*.part
+*.ytdl
+
+# ── Secrets / variables d'environnement ──────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Cursor / IDE ─────────────────────────────────────────────
+.cursor/hooks/state/
+# Garder les hooks et règles Cursor, mais pas l'état runtime
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Logs locaux ───────────────────────────────────────────────
+*.log
+logs/
+
+# ── Éditeur ───────────────────────────────────────────────────
+*.swp
+*.swo
+*~
+.idea/
+.vscode/settings.json
